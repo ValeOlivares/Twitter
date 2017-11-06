@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  background-image: url(../img/fotovale.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  font-size: 35px;
+  color: #fff;
+  background-color: #58FAAC;
+  text-align: center;
+  padding-top: 17px;
+  height:45px;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.caja1, .caja2{
+  width: 40%;
+  height: 200px;
+  background-color: #fff;
+  margin:50px;
+  border-radius: 10px 10px 10px 10px; /*redondear bordes */
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  opacity: 0.7;
+  padding-left: 20px;
+}
+.caja1{
+  float: left;
+}
+.caja2{
+  float: right;
+}
+
+#comentario{
+  padding: 10px;
+  display: block;
+}
+
+#boton{
+	background-color: #58FAAC;
+	padding: 5px 6px;
+	display: block;
+
+#cont {
+  background-color: #fff;
+  opacity: 0.7;
+
+}
