@@ -5,7 +5,7 @@ body{
   background-repeat: no-repeat;
 }
 
-footer {
+header {
   font-size: 35px;
   color: #fff;
   background-color: #58FAAC;
@@ -20,12 +20,13 @@ footer {
   height: 200px;
   background-color: #fff;
   margin:50px;
-  border-radius: 10px 10px 10px 10px; /*redondear bordes */
+  border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   opacity: 0.7;
   padding-left: 20px;
 }
+
 .caja1{
   float: left;
 }
@@ -42,9 +43,14 @@ footer {
 	background-color: #58FAAC;
 	padding: 5px 6px;
 	display: block;
+}
 
-#cont {
+#caja3 div {
   background-color: #fff;
-  opacity: 0.7;
 
+}
+.contenedor{
+  outline: 1px solid red;
+  width: 100%;
+  height: 1000px;
 }
