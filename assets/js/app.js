@@ -1,11 +1,7 @@
-//crear 4 variables para comentario, boton y elementos nuevos
-
-var texto = document.getElementById("comentario");
-var botton = document.getElementById ("boton");
-var contador = document.getElementById("contador");
-var nCom = document.getElementById("newComment");
-
+//funcion para añadir comentario
 function add(){
+  var texto = document.getElementById("comentario");
+  var botton = document.getElementById ("boton");
   var nuevoTexto = texto.value; //rescatando el valor
   document.getElementById("comentario").value=""; // borrar comentario después de hacer click
 //crear nuevos elementos
@@ -19,9 +15,12 @@ function add(){
   nCaja.appendChild(nContenedor);
 }
 
-/*//hacer contador
-var contador = document.getElementById("contador").value;
-var max = 140;
-var text=document.getElementById("comentario").value;
-var.long=text.lenght;
-text.innerHTML=*/
+//hacer contador
+function contar() {
+  var counter = document.getElementById("contador");
+  var max = "140";
+  var cadena = document.getElementById("comentario").value;
+  var longitud = cadena.length; // largo del texto rescatado desde comentario
+  contador.innerHTML= max - longitud; // innerHTML modifica el HTML, modificamos 140 por el valor de esta resta
+  document.getElementById("contador")="140";
+  }

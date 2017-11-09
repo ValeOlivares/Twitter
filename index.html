@@ -8,7 +8,7 @@
   <body>
     <header> Twitter</header>
     <section class="contenedor">
-      
+
         <div class="caja1">
           <h2>Reto de código</h2>
           <p>Hola,</p>
@@ -16,9 +16,9 @@
           <p>Y no entiendo nada</p>
         </div>
         <div class="caja2">
-          <textarea class="txt" id="comentario" placeholder="¿Qué estás pensando?"></textarea>
+          <textarea class="txt" id="comentario" placeholder="¿Qué estás pensando?" onKeyDown="contar()" onKeyUp="contar()" ></textarea>
           <button type="button" id="boton" onclick="add()"> Tweet</button>
-          <span id="contador"></span>
+          <p id="contador">140</p>
         </div>
     </section>
     <section id="newComment">
