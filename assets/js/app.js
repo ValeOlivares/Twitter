@@ -13,14 +13,25 @@ function add(){
   parrafo.appendChild(nodoText);
   nContenedor.appendChild(parrafo);
   nCaja.appendChild(nContenedor);
+  //deshabilitar y cambiar boton(aun no funciona)
+  if (nuevoTexto.length >= 1 || nuevoTexto.length >= 140) {
+    boton.disabled = false;
+}else {
+    boton.disabled = true;
+}
+
 }
 
 //hacer contador
 function contar() {
-  var counter = document.getElementById("contador");
-  var max = "140";
-  var cadena = document.getElementById("comentario").value;
+  var max = "140"; //var max para
+  var cadena = document.getElementById("comentario").value; // rescatar texto ingresado por el usuario
   var longitud = cadena.length; // largo del texto rescatado desde comentario
   contador.innerHTML= max - longitud; // innerHTML modifica el HTML, modificamos 140 por el valor de esta resta
-  document.getElementById("contador")="140";
+  //cambiar color de contador (funciona mas o menos xD)
+  if (longitud >= 120) {
+    document.getElementById("contador").style.backgroundColor= "purple";
+  }else if (longitud >= 130) {
+    document.getElementById("contador").style.backgroundColor= "red";
   }
+}
