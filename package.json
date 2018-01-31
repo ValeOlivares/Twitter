@@ -1,0 +1,26 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValeOlivares/Twitter.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Valentina Neira Olivares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValeOlivares/Twitter/issues"
+  },
+  "homepage": "https://github.com/ValeOlivares/Twitter#readme"
+}
